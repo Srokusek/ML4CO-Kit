@@ -66,6 +66,9 @@ class TASK_TYPE(str, Enum):
     STANDARD_CELL_PLACEMENT = "StandardCellPlacement" # Standard Cell Placement
     GLOBAL_ROUTING = "GlobalRouting" # Global Routing
 
+    # Facility location Optimization Problems
+    KMEDIAN = "KMedian" # KMedian version of the facility location optimization
+
 
 class TaskBase(object):
     """Base class for all tasks in the ML4CO kit."""
