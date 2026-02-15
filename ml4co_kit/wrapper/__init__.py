@@ -27,3 +27,6 @@ from .portfolio.mopo import MOPOWrapper
 from .sat.satp import SATPWrapper
 from .sat.sata import SATAWrapper
 from .sat.usatc import USATCWrapper
+
+# Facility Location Optimization Problem
+from .facility.kmedian import KMedianWrapper
